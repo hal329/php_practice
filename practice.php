@@ -15,7 +15,7 @@ $hello = "Hello, ";
 $name = "白谷春奏";
 $world = "‘s World!";
     
-echo $hello, $name, $world;
+echo $hello . $name . $world;
 
 $tech = 'tech';
 $tech .= 'boost';

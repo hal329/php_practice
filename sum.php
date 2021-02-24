@@ -40,5 +40,5 @@ echo product(array(1, 3, 5 ,7, 9));
 
 return $max_number;
 }
- 
+
 echo max_array(array(1, 2, 3,));

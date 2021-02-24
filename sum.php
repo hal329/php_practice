@@ -42,3 +42,34 @@ return $max_number;
 }
 
 echo max_array(array(1, 2, 3,));
+
+//下記のビルトイン関数の用途、使い方を調べて実際に使ってみてください
+//strip_tags
+$str = "<strong>白谷春奏</strong>" ;
+
+echo strip_tags($str);
+
+//array_push
+$arr = array("red","blue","violet");
+array_push($arr,"yellow");
+
+print_r ($arr);
+
+//array_merge
+$array_a = array("fruits" => "banana","apple" => "ringo",4,5);
+$array_b = array("number" => 1,2,3,);
+$result = array_merge($array_a,$array_b);
+
+print_r ($result);
+
+//time, mktime
+echo time();
+//1970/1/1から1614172972秒経過している（2021/2/24　22:23実行時点）
+
+$time = mktime(0, 0, 0, 29, 2, 2017);
+echo $time;
+//2017年の誕生日までの経過時間が出せる
+
+//date
+echo date('l jS \of F Y h:i:s A');
+//今日の年月日時間などが出せる
